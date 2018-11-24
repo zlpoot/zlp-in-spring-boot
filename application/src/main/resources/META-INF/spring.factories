@@ -1,0 +1,7 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.zlp.zlpinspringboot.context.AfterApplicationContextInitializer,\
+com.zlp.zlpinspringboot.context.HelloWordApplicationContextInitializer
+
+org.springframework.context.ApplicationListener=\
+com.zlp.zlpinspringboot.context.AfterApplicationContextInitializer,\
+com.zlp.zlpinspringboot.listener.HelloWorldApplicationListener

@@ -13,6 +13,5 @@ public class ZlpInSpringBootApplication {
 		new SpringApplicationBuilder(ZlpInSpringBootApplication.class)
 				.run(args);
 //		SpringApplication.run(ZlpInSpringBootApplication.class, args);
-
 	}
 }

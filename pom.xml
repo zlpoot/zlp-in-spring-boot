@@ -6,7 +6,10 @@
 	<groupId>com.zlp</groupId>
 	<artifactId>zlp-in-spring-boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<modules>
+		<module>application</module>
+	</modules>
+	<packaging>pom</packaging>
 
 	<name>zlp-in-spring-boot</name>
 	<description>Demo project for Spring Boot</description>
