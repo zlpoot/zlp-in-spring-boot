@@ -1,7 +1,14 @@
+# ApplicationContextInitializer 实现配置
 org.springframework.context.ApplicationContextInitializer=\
 com.zlp.zlpinspringboot.context.AfterApplicationContextInitializer,\
 com.zlp.zlpinspringboot.context.HelloWordApplicationContextInitializer
 
+# ApplicationListener 实现配置
 org.springframework.context.ApplicationListener=\
-com.zlp.zlpinspringboot.context.AfterApplicationContextInitializer,\
-com.zlp.zlpinspringboot.listener.HelloWorldApplicationListener
+com.zlp.zlpinspringboot.listener.AfterHelloWorldApplicationListener,\
+com.zlp.zlpinspringboot.listener.HelloWorldApplicationListener,\
+com.zlp.zlpinspringboot.listener.BeforeApplicationListener
+
+# SpringApplicationRunListener 实现配置
+org.springframework.boot.SpringApplicationRunListener=\
+com.zlp.zlpinspringboot.run.HelloWorldApplicationRunListener
